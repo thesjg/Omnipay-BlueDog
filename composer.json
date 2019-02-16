@@ -1,0 +1,39 @@
+{
+    "name": "omnipay/bluedog",
+    "type": "library",
+    "description": "BlueDog API driver for the Omnipay payment processing library",
+    "keywords": [
+        "bluedog",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/thephpleague/omnipay-bluedog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel J. Greear",
+            "email": "sam@longriflesinc.com"
+        },
+        {
+            "name": "Omnipay Contributors",
+            "homepage": "https://github.com/thephpleague/omnipay-bluedog/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Bluedog\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
